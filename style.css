@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+/* Featured Products Section */
+.featured-products {
+    padding: 50px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+/* Product Card Styles */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+
+.product-title {
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 1rem;
+    color: #28a745; /* Bootstrap success color */
+    font-weight: bold;
+}
